@@ -24,16 +24,24 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <a href="https://github.com/Nikita2428/CLG_PROJECT" target="_blank" rel="noopener noreferrer">
+          <img src={Sidebar} alt="Placement project" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+        <a href="https://mom-care-omega.vercel.app" target="_blank" rel="noopener noreferrer">
+            <img src={Ecommerce} alt="MomCare Project" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+        <a href="https://ai-chatbot-ed1b.vercel.app" target="_blank" rel="noopener noreferrer">
+            <img src={MusicApp} alt="Ai-Chatbot Project" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+        <a href="https://weather-react-rho-murex.vercel.app" target="_blank" rel="noopener noreferrer">
+            <img src={HOC} alt="Weather Project" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

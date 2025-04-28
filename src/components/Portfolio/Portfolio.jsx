@@ -6,6 +6,7 @@ import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
+import Login from "../../img/login.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -41,6 +42,11 @@ const Portfolio = () => {
         <SwiperSlide>
         <a href="https://weather-react-rho-murex.vercel.app" target="_blank" rel="noopener noreferrer">
             <img src={HOC} alt="Weather Project" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+        <a href="https://new-data-connection.vercel.app" target="_blank" rel="noopener noreferrer">
+            <img src={Login} alt="Database connection Project" />
           </a>
         </SwiperSlide>
       </Swiper>
